@@ -1,11 +1,76 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Roblox Game Studio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triexemoi Studio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f2f2f2; }
+    header { background: #1e1e1e; color: white; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 40px 20px; text-align: center; }
+    .game-card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      max-width: 400px;
+      margin: 20px auto;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .game-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .game-card h2 { margin-top: 15px; }
+    .game-card p { font-size: 0.95em; color: #555; }
+    .game-card a {
+      display: inline-block;
+      margin-top: 10px;
+      background: #0078D7;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    footer {
+      background: #1e1e1e;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
 </head>
 <body>
-  <h1>🔥 Welcome to My Roblox Studio</h1>
-  <p>Check out our latest games!</p>
-  <a href="https://www.roblox.com/games/12345678">Play Now</a>
+  <header>
+    <h1>Triexemoi Studio</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#games">Games</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <section id="games">
+    <h2>Our Game</h2>
+    <div class="game-card">
+      <img src="https://tr.rbxcdn.com/e2b6cfd3c25b19db924a9f52c40f722e/768/432/Image/Png" alt="Triexemoi Troll Tower">
+      <h2>Triexemoi Troll Tower</h2>
+      <p>A fun and trolly obby experience created by Triexemoi. Try to beat the tower full of chaos and challenges!</p>
+      <a href="https://www.roblox.com/games/100199208359497/Triexemoi-Troll-Tower" target="_blank">Play on Roblox</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Triexemoi Studio</h2>
+    <p>We are a creative Roblox game development studio focused on fun, chaos, and unique experiences.</p>
+  </section>
+
+  <footer>
+    © 2025 Triexemoi Studio • All Rights Reserved
+  </footer>
 </body>
 </html>
